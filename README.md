@@ -24,7 +24,7 @@ Scraping American news was more annoying because there was no single portal like
 
 
 ## Text Analysis
-* Topic Modeling (using both LDA and NMF)
+* Topic Modeling. I used both Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NMF) 
 * Word Frequency (top most frequent words ... and word clouds... because why not)
 
 
