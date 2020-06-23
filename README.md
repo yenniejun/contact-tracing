@@ -33,11 +33,16 @@ Note: Many of the results for the search term "contact tracing" did not actually
 
 # Tools 
 * beautiful soup (for scraping)
+* gensim (lemmatizer, stemmer)
 * nltk (English stop words, lemmatizer, stemmer)
 * sklearn (NMF, LDA)
 * [KoNLPy](https://konlpy.org/en/latest/) (Korean NLP in Python) (breaking Korean into morphemes)
-* [Stopwords Korean](https://github.com/stopwords-iso/stopwords-ko)
 
+# Data
+* `us_proc.pkl`: pickle file with the relevant American news sources with the body of the article lemmatized, stemmed, tokenized
+* `korean_proc.pkl`: pickle file with the relevant Korean news sources with the body of the article broken into morphemes and tokenized
+* `texts_ko_morphemes.data`: pickle file with the relevant Korean news sources with the body of the article broken into morphemes. Using KoNLPy's [Kkma](https://konlpy.org/en/v0.4.4/api/konlpy.tag/) morphological analyzer
+* `korean_stopwords.json`: Korean stopwords taken from [here](https://github.com/stopwords-iso/stopwords-ko)
 
 # Helpful Articles
 
