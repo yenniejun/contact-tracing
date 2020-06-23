@@ -21,6 +21,8 @@ Scraping American news was more annoying because there was no single portal like
 * Taking articles from the following platforms: CNN, Fox, NYT, USA Today, Washington Post (Breitbart and Daily Caller were manually scraped because there were only 20 articles for each about contact tracing)
 * Searching in the date range from January 01, 2020 to the beginning of June
 
+Note: Many of the results for the search term "contact tracing" did not actually include anything about contact tracing in the article, so the number of American news articles actually related to contact tracing is fewer than expected
+
 
 
 ## Text Analysis
